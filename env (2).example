@@ -1,0 +1,15 @@
+# Впишите свои реальные значения, скопированные из developer.paypal.com -> Apps & Credentials
+PAYPAL_CLIENT_ID=впишите_сюда_свой_client_id
+PAYPAL_CLIENT_SECRET=впишите_сюда_свой_client_secret
+
+# sandbox = тестовый режим (без реальных денег), live = реальные платежи
+PAYPAL_MODE=sandbox
+
+# Валюта. PayPal не работает с RUB напрямую -- из России обычно используют USD или EUR
+PAYPAL_CURRENCY=USD
+
+# Порт, на котором будет работать этот PayPal-сервер (Render сам подставит свой, можно оставить так)
+PORT=4000
+
+# Адрес вашего Minecraft-бэкенда, который выдаёт привилегии (тот, что уже был на сайте)
+MINECRAFT_BACKEND_URL=http://p1.foxter.top:25802
