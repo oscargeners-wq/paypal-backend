@@ -23,7 +23,7 @@ app.use(express.json());
 const {
   PAYPAL_CLIENT_ID,
   PAYPAL_CLIENT_SECRET,
-  PAYPAL_MODE = 'sandbox', // 'sandbox' или 'live'
+  PAYPAL_MODE = 'live', // 'sandbox' или 'live'
   PORT = 4000,
   MINECRAFT_BACKEND_URL,
 } = process.env;
